@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+}
+
+.app {
+  width: 90%;
+  max-width: 420px;
+  margin: 60px auto;
+  text-align: center;
+}
+.fila {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+select {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  width: 120px;
+  padding: 10px;
+  background: #885299;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.tareas {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tarea {
+  padding: 12px 16px;
+  border-radius: 20px;
+}
+
+.proceso {
+  background: #d69dac;
+}
+
+.finalizado {
+  background: #bde99a;
+}
+.columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarea {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.pendiente {
+  background: rgb(248, 169, 244), 167, 240;
+}
+
+.proceso {
+  background: #b3e5fc;
+}
+
+.finalizado {
+  background: #fff9c4;
+}

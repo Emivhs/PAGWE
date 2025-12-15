@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista detareas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <div class="fila">
+      <input type="text" id="tarea" placeholder="Escribe tarea">
+      <select id="estado">
+        <option value="finalizado">FINALIZADO</option>
+        <option value="proceso">EN PROCESO</option>
+        <option value="pendiente">PENDIENTE</option>
+      </select>
+    </div>
+
+    <button onclick="agregarTarea()" class="btn">Agregar</button>
+
+    <div class="columnas">
+  <div>
+    <h3>Pendiente</h3>
+    <div id="pendiente"></div>
+  </div>
+
+  <div>
+    <h3>En proceso</h3>
+    <div id="proceso"></div>
+  </div>
+
+  <div>
+    <h3>Finalizado</h3>
+    <div id="finalizado"></div>
+  </div>
+</div>
+
+    <div class="tareas" id="lista"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
